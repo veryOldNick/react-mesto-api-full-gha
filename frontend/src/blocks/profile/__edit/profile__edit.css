@@ -1,0 +1,31 @@
+.profile__edit {
+  background-image: url('../../../images/pen.svg');
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 10px 10px;
+  border: 1px solid white;
+  opacity: 1;
+  min-width: 24px;
+  height: 24px;
+  transition: .5s;
+  margin-left: 18px;
+  margin-top: 7px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.profile__edit:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 960px) {
+  .profile__edit {
+    margin-left: 11px;
+    min-width: 18px;
+    height: 18px;
+    background-size: 7.5px 7.5px;
+  }
+}

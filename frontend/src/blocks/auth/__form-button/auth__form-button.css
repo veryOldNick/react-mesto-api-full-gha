@@ -1,0 +1,12 @@
+.auth__form-button {
+  margin-top: 216px;
+  padding: 0;
+  height: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.auth__form-button:hover {
+  opacity: .6;
+}

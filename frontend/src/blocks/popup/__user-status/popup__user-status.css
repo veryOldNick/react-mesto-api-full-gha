@@ -1,0 +1,13 @@
+.popup__user-status {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 700px) {
+    .popup__user-status {
+        padding-top: 50px;
+   }
+   }
