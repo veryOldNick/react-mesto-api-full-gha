@@ -10,7 +10,7 @@ const router = require('./routes/index');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const app = express();
-// app.use(cors());
+app.use(cors());
 app.use(bodyParser.json());
 
 const { PORT = 3000 } = process.env;
