@@ -37,7 +37,7 @@ router.patch('/me', celebrate({
 // обновляет аватар
 router.patch('/me/avatar', celebrate({
   body: Joi.object().keys({
-    avatar: Joi.string().pattern(regUrl),
+    avatar: Joi.string().required().pattern(regUrl),
   }),
 }), updateAvatar);
 
