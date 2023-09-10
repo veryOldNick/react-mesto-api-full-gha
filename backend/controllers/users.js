@@ -1,9 +1,10 @@
+// require('dotenv').config();
 // const mongoose = require('mongoose');
 // const bcrypt = require('bcrypt');
 // const jwt = require('jsonwebtoken');
 // const User = require('../models/user');
-// const { JWT_SECRET } = process.env;
-const JWT_SECRET = 'bla bla bla';
+const { JWT_SECRET } = process.env;
+// const JWT_SECRET = 'bla bla bla';
 
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
