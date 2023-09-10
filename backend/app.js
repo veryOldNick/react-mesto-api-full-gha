@@ -1,9 +1,9 @@
-// require('dotenv').config();
+require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-// const cors = require('cors');
+const cors = require('cors');
 const { errors } = require('celebrate');
 const errorWithoutStatus = require('./errors/error-without-status');
 const router = require('./routes/index');
