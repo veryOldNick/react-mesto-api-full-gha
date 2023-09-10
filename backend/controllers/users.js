@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-const { JWT_SECRET } = process.env;
+// const { JWT_SECRET } = process.env;
+const JWT_SECRET = 'bla bla bla';
 // 400
 const BadRequestError = require('../errors/bad-request-error');
 // 404
